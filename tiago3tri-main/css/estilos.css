@@ -1,14 +1,13 @@
 :root {
-  --cinza: #aaa;
+  --cinza: #d1d1d1;
   --vermelha: #6b3de9;
   --vermelha-escura: #151c86;
-  --branca: #FFFFFF;
-  --luz: rgb(47, 128, 94);
-  --preto: #000000;
+  --branca: #ffffff;
+  --luz: rgb(48, 162, 207);
+  --preto: #0f0781;
 }
 
 body {
-  background-image: src="ocean.jpg";
   align-items: center;
   display: flex;
   justify-content: center;
@@ -17,6 +16,12 @@ body {
   min-height: 100vh;
 }
 
+.bg{
+  background-image:url('./ocean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+
 h1 {
   color: var(--branca);
   margin-bottom: 20px;
@@ -24,8 +29,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  background: linear-gradient(to bottom, #eeeeee 0%,#e9e8e8 100%);
+  box-shadow: 6px 8px 0 6px #cacaca, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
@@ -69,7 +74,7 @@ h1 {
 }
 
 .titulo{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Croissant One', cursive;
   font-size: 6em;
   padding: 0.5em 0 0.3em 0;
 }
