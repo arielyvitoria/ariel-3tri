@@ -1,10 +1,10 @@
 :root {
   --cinza: #d1d1d1;
-  --vermelha: #6b3de9;
-  --vermelha-escura: #151c86;
+  --vermelha: #82cdff;
+  --vermelha-escura: #1c71d3;
   --branca: #ffffff;
-  --luz: rgb(48, 162, 207);
-  --preto: #0f0781;
+  --luz: rgb(32, 113, 206);
+  --preto: #3486d3;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 .bg{
-  background-image:url('./ocean.jpg');
+  background-image:url('./disney.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }  
